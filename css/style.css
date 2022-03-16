@@ -1,0 +1,257 @@
+#bg-video {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
+
+
+.jumbovidtext {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+
+.txtjumbo {
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5), 2px 2px 2px rgba(249, 255, 251, 0);
+  color: #029EB7;
+}
+
+.jumbotron {
+  /* background: rgba(128,128,128,0.5); */
+  background: transparent;
+  margin: 25vh 0;
+  overflow-y: hidden;
+}
+
+#navbar-top {
+  background-color: #424242;
+  ;
+}
+
+.navbar-toggler {
+  background-color: #029eb7;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 3px 2px rgba(254, 255, 249, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 3px 2px rgba(254, 255, 249, 0);
+}
+
+
+
+.nav a {
+  /* text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(249,255,251,0); */
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5), 2px 2px 2px rgba(249, 255, 251, 0);
+  color: #029EB7;
+  text-transform: uppercase;
+
+}
+
+.nav a:hover {
+  color: #015d6b;
+}
+
+.navbar-brand {
+
+  text-shadow: 3px 5px 2px #474747, 2px 2px 2px rgba(249, 255, 251, 0);
+
+  color: #029EB7;
+
+
+}
+
+fa.fa-bars {
+  display: inline-block;
+}
+
+
+.navbar-form input,
+.form-inline input {
+  width: auto;
+}
+
+
+
+main {
+  background: #fff;
+  padding: 2em;
+}
+
+
+
+
+#our-adventures {
+  padding: 70px 0;
+  background: #fff;
+}
+
+#our-adventures .top {
+  margin-bottom: 50px;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  font-family: 'lato';
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: -4px 2px 10px 3px rgba(0, 0, 0, 0.50);
+  -moz-box-shadow: -4px 2px 10px 3px rgba(0, 0, 0, 0.50);
+  box-shadow: -4px 2px 10px 3px rgba(0, 0, 0, 0.50);
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position: 50% 50%;
+  -webkit-transition: background-size 0.275s ease-in-out;
+  transition: background-size 0.275s ease-in-out;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.card-1 {
+  background: url(../img/autumn-1245408_1920.jpg);
+  background-size: 115%;
+  background-repeat: no-repeat;
+}
+
+.card-2 {
+  background: url(../img/gobaikal/ekaterina-sazonova-1314962-unsplash.jpg);
+  background-size: 115%;
+  background-repeat: no-repeat;
+}
+
+.card-3 {
+  background: url(../img/gogastronomic/SIBERIAN-CUISINE-2.jpg);
+  background-size: 115%;
+  background-repeat: no-repeat;
+}
+
+.card-4 {
+  background: url(../img/gobaikal/Иркутск\ Лето\ 2017\ 2361.JPG);
+  background-size: 115%;
+  background-repeat: no-repeat;
+}
+
+.card-5 {
+  background: url(../img/gofrozen/sosulki.jpg);
+  background-size: 115%;
+  background-repeat: no-repeat;
+}
+
+.card-6 {
+  background: url(../img/gowild/siberia-3237618_1920.jpg);
+  background-size: 115%;
+  background-repeat: no-repeat;
+}
+
+.card-img-top:hover {
+  background-size: 100%;
+}
+
+.card img {
+  width: 110%;
+  height: 100%;
+}
+
+.card h4 {
+  padding-top: 25px;
+  font-weight: 700;
+}
+
+.card .card-text {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-footer {
+  background: #029eb7;
+  border-radius: 0%;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.section .row {
+  margin-top: 7%;
+  margin-bottom: 10%;
+}
+
+.section .row .col-md-6 {
+  background: #f5f5f5;
+  margin-right: -2%;
+  padding: 5%;
+}
+
+.section h3 {
+  color: #029eb7;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5), 3px 2px 2px rgba(251, 255, 255, 0);
+
+}
+
+.section p {
+  margin-top: 10%;
+  color: #545b62;
+}
+
+.section img {
+  width: 100%;
+}
+
+.gal {
+
+
+  -webkit-column-count: 3;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 3;
+  /* Firefox */
+  column-count: 3;
+
+
+}
+
+.gal img {
+  width: 100%;
+  padding: 7px 0;
+}
+
+@media (max-width: 500px) {
+
+  .gal {
+
+
+    -webkit-column-count: 1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 1;
+    /* Firefox */
+    column-count: 1;
+
+
+  }
+
+
+}
+
+.carouselsection {
+  background-image: url("../img/impressivefacts.jpg");
+  background-size: cover;
+  height: 500px;
+}
+
+
+
+.site-footer {
+  margin-top: 2rem;
+}
+
+#section-contact {
+  margin-top: 2rem;
+}
+
